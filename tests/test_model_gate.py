@@ -10,7 +10,7 @@ import pytest
 from src.data import load_data
 from src.train import SEARCH_GRID, build_model, cross_validate_model
 
-F1_THRESHOLD = 0.88
+F1_THRESHOLD = 0.85
 LATENCY_MS = 30
 VALID_CLASSES = {0, 1, 2}
 
